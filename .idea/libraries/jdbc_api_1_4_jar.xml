@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdbc-api-1.4.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../jdbc-api-1.4.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="kafka-0.7.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../kafka-0.7.0.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../jar_files.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Kafa_jar_files.zip!/" />
+      <root url="jar://$PROJECT_DIR$/../../../org.json.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

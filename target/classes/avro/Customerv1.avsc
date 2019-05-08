@@ -1,0 +1,12 @@
+{
+     "type": "record",
+     "namespace": "com.vikram",
+     "name": "Customer",
+     "version": "1",
+     "fields": [
+       { "name": "ID", "type": "int", "doc": "id of cus" },
+       { "name": "contact", "type": "string", "doc": "contact of cus" },
+       { "name": "account", "type": "string", "doc": "Account for cus" },
+       { "name": "address", "type": "string", "doc": "address of cus" },
+       ]
+}
