@@ -26,53 +26,6 @@ public class kafkaproducerv1 {
 
     public static void main(String[] args) {
 
-/**
-        Properties properties = new Properties();
-        // normal producer
-        properties.setProperty("bootstrap.servers", "localhost:9092,localhost:9093,localhost:9094");
-        properties.setProperty("acks", "1");
-        properties.setProperty("retries", "10");
-        // avro part
-        properties.setProperty("key.serializer", StringSerializer.class.getName());
-        properties.setProperty("value.serializer", KafkaAvroSerializer.class.getName());
-        properties.setProperty("schema.registry.url", "http://localhost:8081");
-
-
-        KafkaProducer<String, Customer> KafkaProducer = new KafkaProducer<String, Customer>(properties);
-        String topic = "Multibrokercluster";
-
-
-
-        Customer customer = Customer.newBuilder()
-                .setID(12)
-                .setContact("vikram")
-                .setAccount("maruti")
-                .setAddress("delhi")
-                .build();
-        ProducerRecord<String,Customer> producerRecord = new ProducerRecord<String, Customer>(topic, customer
-        );
-
-        KafkaProducer.send(producerRecord, new Callback() {
-            @Override
-            public void onCompletion(RecordMetadata recordMetadata, Exception e) {
-                if (e == null){
-                    System.out.println("Success");
-                    System.out.println(recordMetadata.toString());
-                } else {
-                    e.printStackTrace();
-                }
-            }
-        });
-
-        KafkaProducer.flush();
-        KafkaProducer.close();
-
-    }
-}
-
-         */
-
-
         String topicName = "avro";
         String msg;
 
